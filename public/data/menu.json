@@ -1,0 +1,51 @@
+[
+    {
+        "items":[
+            {
+                "label": "Inicio",
+                "icon": "pi-fw fa-solid fa-house",
+                "to": "/dashboard"
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "label": "Inventario",
+                "icon": "pi-fw fa-solid fa-clipboard",
+                "items": [
+                    {
+                        "label": "Productos",
+                        "icon": "pi-fw fa-solid fa-boxes-stacked",
+                        "to": "/dashboard/inventory/products"
+                    },
+                    {
+                        "label": "Categorias",
+                        "icon": "pi-fw fa-solid fa-sitemap",
+                        "to": "/dashboard/inventory/categories"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "label": "Sistema",
+                "icon": "pi-fw fa-solid fa-screwdriver-wrench",
+                "items": [
+                    {
+                        "label": "Administradores",
+                        "icon": "pi-fw fa-solid fa-user-tie",
+                        "to": "/dashboard/system/admins"
+                    },
+                    {
+                        "label": "Managers",
+                        "icon": "pi-fw fa-solid fa-people-roof",
+                        "to": "/dashboard/system/managers"
+                    }
+                ]
+            }
+        ]
+    }
+]
