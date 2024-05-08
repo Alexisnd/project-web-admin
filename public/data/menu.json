@@ -43,6 +43,11 @@
                         "label": "Managers",
                         "icon": "pi-fw fa-solid fa-people-roof",
                         "to": "/dashboard/system/managers"
+                    },
+                    {
+                        "label": "Sucursales",
+                        "icon": "pi-fw fa-solid fa-people-roof",
+                        "to": "/dashboard/system/branchs"
                     }
                 ]
             }
