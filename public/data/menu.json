@@ -45,6 +45,11 @@
                         "to": "/dashboard/system/managers"
                     },
                     {
+                        "label": "Marcas",
+                        "icon": "pi-fw fa-solid fa-copyright",
+                        "to": "/dashboard/system/brands"
+                    },
+                    {
                         "label": "Sucursales",
                         "icon": "pi-fw fa-solid fa-people-roof",
                         "to": "/dashboard/system/branchs"
